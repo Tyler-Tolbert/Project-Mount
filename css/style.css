@@ -210,6 +210,14 @@ h5 {
 	height: 30em;
 }
 
+#section-b .picture {
+	transition: transform .3s ease;
+}
+
+#section-b .picture:hover {
+	transform: scale(0.97);
+}
+
 #section-b .btn {
 	color: #333;
 	border: 2px solid #333;
@@ -412,15 +420,15 @@ h5 {
 }
 
 #section-h .btn {
-	background-color: #EB4647;
-	border: 1px solid #EB4647;
+	background-color: #f2696a;
+	border: 1px solid #f2696a;
 }
 
 
 #section-h .btn:hover {
 	color: #fff;
 	border-color: #EB4647;
-	background-color: #EB4;
+	background-color: #EB4647;
 	transform: scale(1.1)
 }
 
@@ -582,23 +590,20 @@ h5 {
 	}
 
 
-	/*	Section G  */
+	/*	Section H  */
 	#section-h .bg-image {
-		position: ;
-		background: #fff url("../img/scene5e.jpg") no-repeat center;
-		background-size: cover;
 		height: 50em;
 	}
-	
+
 }
 
 /*=====================================================*/
 
 @media (min-width: 1200px) {
-	
-	
-	
+
+	/*	Section H  */
+	#section-h .bg-image {
+		height: 70em;
+	}
+
 }
-
-
-
